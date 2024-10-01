@@ -30,11 +30,14 @@ Este proyecto fue desarrollado utilizando las siguientes tecnologías:
 A continuación, algunas capturas de pantalla que muestran el diseño y las secciones de la página:
 
 ### Página de Inicio
-![Página de Inicio](https://via.placeholder.com/800x400.png?text=Captura+de+la+Página+de+Inicio)
+![Página de Inicio]![image](https://github.com/user-attachments/assets/3ec1c77c-24c7-4777-9e63-8395c6c3f227)
+
 
 ### Sección de Servicios
-![Sección de Servicios](https://via.placeholder.com/800x400.png?text=Captura+de+Servicios)
+![Sección de Servicios]![image](https://github.com/user-attachments/assets/cbbfb302-bd63-4c25-b8bb-57119489a453)
+
 
 ### Formulario de Contacto
-![Formulario de Contacto](https://via.placeholder.com/800x400.png?text=Captura+del+Formulario+de+Contacto)
+![Formulario de Contacto]![image](https://github.com/user-attachments/assets/c192f0ed-f7ea-414d-8330-8faf1478df93)
+
 
