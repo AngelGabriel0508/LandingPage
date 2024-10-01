@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" href="IMG/logodemaryland.ico  ">
+    <link rel="stylesheet" href="CSS/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colegio Maryland Bilingual High School</title>
+</head>
+
+<body>
+    <!--un script lo cual muestra una bienvenida-->
+    <div id="fondo01">
+        <button id="cerrarAnuncio">X</button>
+        <div id="showDate">
+        </div>
+    </div>
+    <script src="JS/bienvenida.js"></script>
+
+    <header>
+        <!-- el js loader muestra un gif antes de que cargue la pagina -->
+        <div class="loader">
+            <img src="IMG/image.gif" alt="carga" width="50%">
+            <script src="JS/loader.js"></script>
+        </div>
+        <!-- parte donde se pasa deslizando cada imagen  -->
+        <div class="fondo">
+            <ul class="fondo__ul">
+                <li class="fondo__ul-li"><img class="fondo__ul-li-img" src="IMG/portada.jpg" alt="portada"></li>
+                <li class="fondo__ul-li"><img class="fondo__ul-li-img" src="IMG/portada02.jpg" alt="portada02"></li>
+                <li class="fondo__ul-li"><img class="fondo__ul-li-img" src="IMG/portada03.jpg" alt="portada03"></li>
+                <li class="fondo__ul-li"><img class="fondo__ul-li-img" src="IMG/portada04.jpg" alt="portada04"></li>
+            </ul>
+        </div>
+        <!-- un JS con los 2 rect cuando siga bajando para abajo el rect 2 dos cambia de position absolute a fixed  -->
+        <script src="JS/rectfixed.js">
+        </script>
+        <!-- encabezado negro -->
+        <div class="rect1">
+            <div class="rect1-inline">
+                <div class="rect1-izquierda">
+                    <img src="IMG/logodemaryland.png" alt="logodemaryland">
+                    <h1>Colegio <br> Maryland Bilingual High School</h1>
+                </div>
+                <div class="rect1-derecha">
+                    <!-- JS que muestra la fecha en español  y las redes del colegio -->
+                    <p id="demo"></p>
+                    <script src="JS/fecha.js"></script>
+                    <hr>
+                    <div class="redes">
+                        <a class="redes-facebook" href="https://www.facebook.com/colegiomarylandcanete" target="_blank">
+                            <img src="IMG/logofacebook.jpg" alt="logofacebook">
+                            <p>facebook</p>
+                        </a>
+                        <a class="redes-whatsapp" href="https://web.whatsapp.com/send?phone=936609401" target="_blank">
+                            <img src="IMG/logowhatsapp.png" alt="logowhastsapp">
+                            <p>whatsapp</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- la parte de navegacion -->
+        <div class="rect2">
+            <nav>
+                <div class="menu">
+                    <img class="logo2" src="IMG/logodemaryland.png" alt="logodemaryland">
+                    <input type="checkbox" id="toggle">
+                    <label class="label" for="toggle">
+                        <img class="menu2" src="IMG/menu.png" alt="menu">
+                    </label>
+                </div>
+                <ul class="menu-items">
+                    <li><a class="a" href="#quienessomos">¿Quienes Somos?</a>
+                        <ul>
+                            <li><a class="a" href="#palabrasD">Plabras del Director</a></li>
+                            <li><a class="a" href="#VirgenF">La Virgen de Fatima</a></li>
+                            <li><a class="a" href="#reseñahistorica">Reseña Historica</a></li>
+                            <li><a class="a" href="#m-v-i">Misión, Visión y Ideario</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="a" href="#niveles">Niveles</a>
+                        <ul>
+                            <li><a class="a" href="#niveles-cuadro">Inicial</a></li>
+                            <li><a class="a" href="#niveles-cuadro">Primaria</a></li>
+                            <li><a class="a" href="#niveles-cuadro">Secundaria</a></li>
+                            <li><a class="a" href="#docentes">Docentes</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="a" href="#talleres">Talleres</a></li>
+                    <li><a class="a" href="#actividades">Actividades</a>
+                        <ul>
+                            <li><a class="a" href="#alumonsdestacados">Alumnos Destacados</a></li>
+                            <li><a class="a" href="#galeria">Galería de Imagenes </a></li>
+                        </ul>
+                    </li>
+                    <li><a class="a" href="#documentos">Documentos</a>
+                        <ul>
+                            <li><a class="a" href="#documentos">PAT</a></li>
+                            <li><a class="a" href="#documentos">PEI</a></li>
+                            <li><a class="a" href="#documentos">Organigrama</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="a" href="#contactanos">Contactanos</a></li>
+                </ul>
+            </nav>
+            <script src="JS/menu.js"></script>
+        </div>
+    </header>
+    <br><br><br>
+    <main>
+        <br id="quienessomos">
+        <section id="palabrasD">
+            <div class="palabrasD">
+                <h1> ¿Quiénes somos? </h1>
+                <hr>
+                <h2>Palabras del Director</h2>
+            </div>
+            <!------------------------ Palabras del director--------------------------------- -->
+            <div class="palabrasD-contenido">
+                <div class="contenido-estable">
+                    <img src="IMG/palabrasdeldirector.jpg" alt="palabrasdeldirector">
+                    <h3> LUIS ALBERTO YATACO RAMIREZ</h3>
+                </div>
+                <p>Estimados padres de familia. <br>
+                    Reciba un caluroso saludo en nombre de todos los que conformamos la gran familia Mazubina , así
+                    como
+                    nuestro agradecimiento por confiar siempre en nosotros , en esa gran tarea de educar a sus
+                    menores
+                    hijos
+                    (as).Siendo esto una tarea compartida con ustedes. <br>
+                    La educación es nuestra pasión, por lo tanto siempre tratamos de innovar nuestra propuesta
+                    educativa,
+                    las cuales tiene como fin potenciar la capacidad creativa y cognitiva y emocional de nuestros
+                    estudiantes, para ir desarrollando en forma gradual sus competencias y capacidades a fin de que
+                    ellos
+                    puedan afrontar un mundo cambiante y competitivo. <br>
+                    Tenemos bien claro que nuestros alumnos debe tener principios ya que sin ello no evoluciona, no
+                    trasciende. Por eso nuestro fin es poder inspirar a cada uno de nuestros estudiantes y
+                    trasmitirle
+                    valores y virtudes como el respeto, la responsabilidad, la lealtad, la integridad, la amabilidad
+                    y
+                    honestidad que lo forme integralmente. <br>
+                    A través de la educación vamos a conseguir la transformación que tanto requiere nuestro país
+                    .Tenemos
+                    que asumir retos que nos conduzcan a construir un mundo mejor. Siendo su participación de
+                    ustedes
+                    muy
+                    importante como familia porque la educación de sus hijos es una tasa compartida. <br>
+                    MANUEL ZUÑIGA BALBIN DIRECTOR
+                </p>
+            </div>
+        </section>
+        <!------------------------- la seccion de la virgen de fatima----------------------->
+        <section id="VirgenF">
+            <div class="VirgenF">
+                <img class="adorno1" src="IMG/adorno.png" alt="adorno">
+                <img class="VirgenF-imgfondo" src="IMG/estrellasfondo.png" alt="estrellasfondo">
+                <h3>La Virgen de Fátima</h3>
+                <div class="VirgenF-contenido">
+                    <p>La Virgen de Fátima, también conocida como Nuestra Señora de Fátima, es un título católico
+                        para
+                        la Virgen María que se apareció a tres jóvenes pastores en la ciudad de Fátima, Portugal en
+                        1917. Los niños eran Lucia dos Santos, Francisco Marto y Jacinta Marto. <br><br>
+                        Según los relatos de los niños, la Virgen María se les apareció el día 13 de seis meses
+                        consecutivos, de mayo a octubre de 1917. Durante estas apariciones, pedía a los niños que
+                        rezaran diariamente el Rosario y ofrecieran sacrificios por la conversión de los pecadores y
+                        por
+                        la paz en el mundo.
+                        <br><br>
+                        El evento más famoso asociado con las apariciones es el "Milagro del Sol" que ocurrió el 13
+                        de
+                        octubre de 1917, presenciado por una gran multitud de personas que se habían reunido en el
+                        lugar. El sol parecía bailar en el cielo y cambiar de color, y la multitud estaba asombrada
+                        y
+                        asustada.
+                        Las apariciones de la Virgen María en Fátima han sido aprobadas por la Iglesia Católica y el
+                        lugar se ha convertido en un importante destino de peregrinación para los católicos de todo
+                        el
+                        mundo.
+                        <br>
+                        El mensaje de Fátima continúa siendo importante, enfatizando la importancia de la oración,
+                        la
+                        penitencia y la devoción al Inmaculado Corazón de María.
+                    </p>
+                    <div class="contenido-image">
+                        <div class="img-c">
+                            <ul class="img__ul">
+                                <li class="img__ul-li"><img class="img__ul-li-img" src="IMG/v1.jpeg" alt="portada">
+                                </li>
+                                <li class="img__ul-li"><img class="img__ul-li-img" src="IMG/v2.png" alt="portada02">
+                                </li>
+                                <li class="img__ul-li"><img class="img__ul-li-img" src="IMG/v3.jpg" alt="portada03">
+                                </li>
+                                <li class="img__ul-li"><img class="img__ul-li-img" src="IMG/v4.jpg" alt="portada04">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------------La seccion de la reseña historica ------------------>
+        <section id="reseñahistorica">
+            <div class="reseñahistorica">
+                <img class="adorno2" src="IMG/adorno.png" alt="adorno">
+                <div class="h3">
+                    <h3>Reseña Historica</h3>
+                </div>
+                <p>El 19 de Octubre 2016 mediante una Resolución de la Dirección Regional de Educación de
+                    Lima-Provincias,
+                    nace oficialmente uno de los colegios que con el tiempo desea convertirse en un aporte y
+                    referente
+                    para
+                    la provincia de Cañete. <br>
+                    La iniciativa de crear un colegio de inspiración católica nace del interés de ofrecer a las
+                    familias
+                    una
+                    alternativa educativa donde la educación integral desde el punto de vista intelectual, afectivo,
+                    deportivo y espiritual esté marcada por una educación en valores humanos y cristianos. <br>
+                    Esta iniciativa inicial de crear y poner en marcha un proyecto educativo novedoso y moderno fue
+                    encargada al Padre Nelson Goicochea Madueño de parte del actual Obispo de la Prelatura Mons.
+                    Ricardo
+                    García. <br>
+                    Esta oferta educativa fue proyectada bajo la forma de una educación bilingüe: inglés y español.
+                    La
+                    razón
+                    de esta propuesta estaba de acuerdo, en primer lugar, con la necesidad de nuestros tiempos y las
+                    características de nuestro mundo globalizado. Y en segundo lugar, porque de esta forma se quería
+                    desarrollar en los alumnos la capacidad no sólo de razonar sino también de ser capaces de captar
+                    las
+                    realidades de su entorno en dos idiomas distintos. <br>
+                    La primera coordinadora del Colegio fue la prof. Leslie Segura que actualmente trabaja en
+                    Estados Unidos y participaron desde un principio el prof. Emmanuel Escudero, la prof. Carmen
+                    Kohatsu y la prof. Jenny Barnechea. El encargado de la elaboración y presentación de la
+                    documentación del colegio ante la Dirección Regional de Educación para su correspondiente
+                    aprobación fue el prof. Victor Faustino. La Secretaria del Pedagógico Leslie Yaya, se hizo cargo
+                    de las primeras inscripciones y matrículas. Asimismo, todo el personal docente, administrativo y
+                    de servicio del Pedagógico aportaron con su trabajo para el inicio de este emprendimiento
+                    educativo. <br>
+                    <a href="PDF/reseñahistorica.pdf" target="_blank" class="reseñah_pdf">Leer más</a>
+                </p>
+            </div>
+        </section>
+        <!-- ======================= la seccion de mision vision y ideario ==============-->
+        <section id="m-v-i">
+            <img class="adorno3" src="IMG/adorno.png" alt="adorno">
+            <div class="m-v-i">
+                <figure class="mision">
+                    <h4>Mision</h4>
+                    <p>El Colegio San Roque al 2036 será una institución
+                        líder a nivel nacional e internacional, con altos
+                        estándares de calidad educativa, procesos pedagógicos
+                        con soporte tecnológico y que brinde al país estudiantes
+                        que aportan a su desarrollo autónomo.</p>
+                </figure>
+                <figure class="mision">
+                    <h4>Vision</h4>
+                    <p>El Colegio San Roque al 2036 será una institución
+                        líder a nivel nacional e internacional, con altos
+                        estándares de calidad educativa, procesos pedagógicos
+                        con soporte tecnológico y que brinde al país estudiantes
+                        que aportan a su desarrollo autónomo.</p>
+                </figure>
+                <figure class="mision">
+                    <h4>Ideario</h4>
+                    <p>El Colegio San Roque al 2036 será una institución
+                        líder a nivel nacional e internacional, con altos
+                        estándares de calidad educativa, procesos pedagógicos
+                        con soporte tecnológico y que brinde al país estudiantes
+                        que aportan a su desarrollo autónomo.</p>
+                </figure>
+            </div>
+        </section>
+        <!-- ================================= la seccion de Niveles================================= -->>
+        <section id="niveles">
+            <div class="niveles">
+                <img class="adorno4" src="IMG/adorno.png" alt="adorno">
+                <div id="niveles-cuadro">
+                    <h1>Niveles</h1>
+                    <img class="nivelesadorno" src="IMG/nivelesadorno.png" alt="nivelesadorno">
+                </div>
+                <hr>
+            </div>
+            <div id="rectniveles">
+                <div class="rect" id="color1">
+                    <img class="imgniveles" src="IMG/nivelinicial.jpg" alt="Imagen 1">
+                    <div class="rectnegro">
+                        <h3>Nivel Inicial</h3>
+                        <p>Aulas Prekinder y Kinder con un máximo de 18 niños atendidos por dos maestras.</p>
+                        <div class="link1">
+                            <img src="IMG/flechaadorno.png" alt="flechaadorno">
+                            <a class="horarios" href="PDF/inicial.pdf" target="_blank">Horarios</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="rect" id="color2">
+                    <img class="imgniveles" src="IMG/nivelprimaria.jpg" alt="Imagen 2">
+                    <div class="rectnegro">
+                        <h3>Nivel Primaria</h3>
+                        <p>Nuestros estudiantes se desarrollan en contextos que favorecen su autoestima y confianza.
+                        </p>
+                        <div class="link1">
+                            <img src="IMG/flechaadorno.png" alt="flechaadorno">
+                            <a class="horarios" href="PDF/primaria.pdf" target="_blank">Horarios</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="rect" id="color3">
+                    <img class="imgniveles" src="IMG/nivelsecundaria.jpg" alt="Imagen 3">
+                    <div class="rectnegro">
+                        <h3>Nivel Secundaria</h3>
+                        <p>Nuestros estudiantes se preparan con solidez para realizar con éxito sus estudios
+                            superiores
+                        </p>
+                        <div class="link1">
+                            <img src="IMG/flechaadorno.png" alt="flechaadorno">
+                            <a class="horarios" href="PDF/secundaria.pdf" target="_blank">Horarios</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--========================== La seccion Docentes ========================-->
+        <section id="docentes">
+            <div class="docentes">
+                <hr>
+                <div class="docentes-cuadro">
+                    <h1>DOCENTES</h1>
+                    <img src="IMG/docentesadorno.png" alt="docentesadorno">
+                </div>
+                <img class="adorno7" src="IMG/adorno.png" alt="adorno">
+            </div>
+            <!--======================== contenido de Docentes=============================-->
+            <div class="d-rect">
+                <div class="d-docentes">
+                    <div class="d-carousel">
+                        <div class="d-card">
+                            <div class="imghr">
+                                <img src="IMG/1.jpg" alt="">
+                                <hr>
+                            </div>
+                            <p class="informacion">
+                                <b>Nombres y Apellidos: </b>Angel Gabriel Castilla Sandoval <br>
+                                <b>Especialidad: </b>Comunicacion <br>
+                                <b>Grado Academico: </b>1to secundaria <br>
+                                <b>Nivel academico: </b>Inicial <br>
+                                <b>Palabras del Docente: </b>Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit.
+                                Natus quae
+                                unt cumque. <br>
+                            </p>
+                        </div>
+                        <div class="d-card">
+                            <div class="imghr">
+                                <img src="IMG/2.jpg" alt="">
+                                <hr>
+                            </div>
+                            <p class="informacion">
+                                <b>Nombres y Apellidos: </b>Angel Gabriel Castilla Sandoval <br>
+                                <b>Especialidad: </b>Comunicacion <br>
+                                <b>Grado Academico: </b>2to secundaria <br>
+                                <b>Nivel academico: </b>Inicial <br>
+                                <b>Palabras del Docente: </b>Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit.
+                                Natus quae
+                                unt cumque. <br>
+                            </p>
+                        </div>
+                        <div class="d-card">
+                            <div class="imghr">
+                                <img src="IMG/3.jpg" alt="">
+                                <hr>
+                            </div>
+                            <p class="informacion">
+                                <b>Nombres y Apellidos: </b>Angel Gabriel Castilla Sandoval <br>
+                                <b>Especialidad: </b>Comunicacion <br>
+                                <b>Grado Academico: </b>3to secundaria <br>
+                                <b>Nivel academico: </b>Inicial <br>
+                                <b>Palabras del Docente: </b>Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit.
+                                Natus quae
+                                unt cumque. <br>
+                            </p>
+                        </div>
+                        <div class="d-card">
+                            <div class="imghr">
+                                <img src="IMG/4.jpg" alt="">
+                                <hr>
+                            </div>
+                            <p class="informacion">
+                                <b>Nombres y Apellidos: </b>Angel Gabriel Castilla Sandoval <br>
+                                <b>Especialidad: </b>Comunicacion <br>
+                                <b>Grado Academico: </b>4to secundaria <br>
+                                <b>Nivel academico: </b>Inicial <br>
+                                <b>Palabras del Docente: </b>Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit.
+                                Natus quae
+                                unt cumque. <br>
+                            </p>
+                        </div>
+                        <div class="d-card">
+                            <div class="imghr">
+                                <img src="IMG/5.png" alt="">
+                                <hr>
+                            </div>
+                            <p class="informacion">
+                                <b>Nombres y Apellidos: </b>Angel Gabriel Castilla Sandoval <br>
+                                <b>Especialidad: </b>Comunicacion <br>
+                                <b>Grado Academico: </b>5to secundaria <br>
+                                <b>Nivel academico: </b>Inicial <br>
+                                <b>Palabras del Docente: </b>Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit.
+                                Natus quae
+                                unt cumque. <br>
+                            </p>
+                        </div>
+                        <div class="d-card">
+                            <div class="imghr">
+                                <img src="IMG/6.png" alt="">
+                                <hr>
+                            </div>
+                            <p class="informacion">
+                                <b>Nombres y Apellidos: </b>Angel Gabriel Castilla Sandoval <br>
+                                <b>Especialidad: </b>Comunicacion <br>
+                                <b>Grado Academico: </b>6to secundaria <br>
+                                <b>Nivel academico: </b>Inicial <br>
+                                <b>Palabras del Docente: </b>Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit.
+                                Natus quae
+                                unt cumque. <br>
+                            </p>
+                        </div>
+                        <div class="d-card">
+                            <div class="imghr">
+                                <img src="IMG/7.png" alt="">
+                                <hr>
+                            </div>
+                            <p class="informacion">
+                                <b>Nombres y Apellidos: </b>Angel Gabriel Castilla Sandoval <br>
+                                <b>Especialidad: </b>Comunicacion <br>
+                                <b>Grado Academico: </b>7to secundaria <br>
+                                <b>Nivel academico: </b>Inicial <br>
+                                <b>Palabras del Docente: </b>Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit.
+                                Natus quae
+                                unt cumque. <br>
+                            </p>
+                        </div>
+                        <div class="d-card">
+                            <div class="imghr">
+                                <img src="IMG/8.png" alt="">
+                                <hr>
+                            </div>
+                            <p class="informacion">
+                                <b>Nombres y Apellidos: </b>Angel Gabriel Castilla Sandoval <br>
+                                <b>Especialidad: </b>Comunicacion <br>
+                                <b>Grado Academico: </b>8to secundaria <br>
+                                <b>Nivel academico: </b>Inicial <br>
+                                <b>Palabras del Docente: </b>Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit.
+                                Natus quae
+                                unt cumque. <br>
+                            </p>
+                        </div>
+                        <div class="d-card">
+                            <div class="imghr">
+                                <img src="IMG/9.png" alt="">
+                                <hr>
+                            </div>
+                            <p class="informacion">
+                                <b>Nombres y Apellidos: </b>Angel Gabriel Castilla Sandoval <br>
+                                <b>Especialidad: </b>Comunicacion <br>
+                                <b>Grado Academico: </b>9to secundaria <br>
+                                <b>Nivel academico: </b>Inicial <br>
+                                <b>Palabras del Docente: </b>Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit.
+                                Natus quae
+                                unt cumque. <br>
+                            </p>
+                        </div>
+                        <div class="d-card">
+                            <div class="imghr">
+                                <img src="IMG/10.png" alt="">
+                                <hr>
+                            </div>
+                            <p class="informacion">
+                                <b>Nombres y Apellidos: </b>Angel Gabriel Castilla Sandoval <br>
+                                <b>Especialidad: </b>Comunicacion <br>
+                                <b>Grado Academico: </b>10to secundaria <br>
+                                <b>Nivel academico: </b>Inicial <br>
+                                <b>Palabras del Docente: </b>Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit.
+                                Natus quae
+                                unt cumque. <br>
+                            </p>
+                        </div>
+                        <div class="d-card">
+                            <div class="imghr">
+                                <img src="IMG/11.png" alt="">
+                                <hr>
+                            </div>
+                            <p class="informacion">
+                                <b>Nombres y Apellidos: </b>Angel Gabriel Castilla Sandoval <br>
+                                <b>Especialidad: </b>Comunicacion <br>
+                                <b>Grado Academico: </b>11to secundaria <br>
+                                <b>Nivel academico: </b>Inicial <br>
+                                <b>Palabras del Docente: </b>Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit.
+                                Natus quae
+                                unt cumque. <br>
+                            </p>
+                        </div>
+                        <div class="d-card">
+                            <div class="imghr">
+                                <img src="IMG/12.png" alt="">
+                                <hr>
+                            </div>
+                            <p class="informacion">
+                                <b>Nombres y Apellidos: </b>Angel Gabriel Castilla Sandoval <br>
+                                <b>Especialidad: </b>Comunicacion <br>
+                                <b>Grado Academico: </b>12to secundaria <br>
+                                <b>Nivel academico: </b>Inicial <br>
+                                <b>Palabras del Docente: </b>Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit.
+                                Natus quae
+                                unt cumque. <br>
+                            </p>
+                        </div>
+                        <div class="d-card">
+                            <div class="imghr">
+                                <img src="IMG/13.png" alt="">
+                                <hr>
+                            </div>
+                            <p class="informacion">
+                                <b>Nombres y Apellidos: </b>Angel Gabriel Castilla Sandoval <br>
+                                <b>Especialidad: </b>Comunicacion <br>
+                                <b>Grado Academico: </b>13to secundaria <br>
+                                <b>Nivel academico: </b>Inicial <br>
+                                <b>Palabras del Docente: </b>Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit.
+                                Natus quae
+                                unt cumque. <br>
+                            </p>
+                        </div>
+                        <div class="d-card">
+                            <div class="imghr">
+                                <img src="IMG/14.png" alt="">
+                                <hr>
+                            </div>
+                            <p class="informacion">
+                                <b>Nombres y Apellidos: </b>Angel Gabriel Castilla Sandoval <br>
+                                <b>Especialidad: </b>Comunicacion <br>
+                                <b>Grado Academico: </b>14to secundaria <br>
+                                <b>Nivel academico: </b>Inicial <br>
+                                <b>Palabras del Docente: </b>Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit.
+                                Natus quae
+                                unt cumque. <br>
+                            </p>
+                        </div>
+                        <div class="d-card">
+                            <div class="imghr">
+                                <img src="IMG/15.png" alt="">
+                                <hr>
+                            </div>
+                            <p class="informacion">
+                                <b>Nombres y Apellidos: </b>Angel Gabriel Castilla Sandoval <br>
+                                <b>Especialidad: </b>Comunicacion <br>
+                                <b>Grado Academico: </b>15to secundaria <br>
+                                <b>Nivel academico: </b>Inicial <br>
+                                <b>Palabras del Docente: </b>Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit.
+                                Natus quae
+                                unt cumque. <br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="prev-btn">&#60;</button>
+                <button class="next-btn">&#62;</button>
+            </div>
+            <script src="JS/app.js"></script>
+        </section>
+        <!--====================== La seccion talleres ========================-->
+        <section id="talleres">
+            <div class="talleres">
+                <img class="adorno5" src="IMG/adorno.png" alt="adorno">
+                <div class="talleres-cuadro">
+                    <h1>Talleres</h1>
+                    <img src="IMG/talleresadorno.png" alt="talleresadorno">
+                </div>
+                <hr>
+            </div>
+            <!-- ================= Acordeon, contenido de talleres ==================== -->
+            <div class="accordeon">
+                <div class="bloque">
+                    <div class="h1" style="background-color: #F5E94D;">Taller de teatro</div>
+                    <div class="contenido" style="background-color: #f6f090;">
+                        Las dinámicas de este curso ayudan a enfrentarse a situaciones inesperadas, así como a
+                        presentaciones orales, superando el miedo a hablar en público y aprendiendo a proyectar
+                        la voz y conociendo cuáles son las actitudes corporales ante la comunicación con grandes
+                        grupos.
+                        <br>
+                        <a href="#" class="accordeon-a" data-imagen="IMG/-1.jpg">Imagenes</a>
+                    </div>
+                </div>
+                <div class="bloque">
+                    <div class="h1" style="background-color: #42DC8B;">Taller de ingles</div>
+                    <div class="contenido" style="background-color: #8edab1;">
+                        Facilitar la actualización de conocimientos pertinentes a las actividades
+                        profesionales de los/as estudiantes. Proporcionar estrategias de estudio de las prácticas
+                        académicas
+                        requeridas en lengua extranjera, además del desarrollo de la lengua en sí misma. <br>
+                        <a href="#" class="accordeon-a" data-imagen="IMG/-2.jpg">Imagenes</a>
+                    </div>
+                </div>
+                <div class="bloque">
+                    <div class="h1" style="background-color: #3769C9;">Concurso de Matematica</div>
+                    <div class="contenido" style="background-color: #88a7e3;">
+                        Los concursos matemáticos son eventos donde los alumnos demuestran sus habilidades y
+                        destrezas matemáticas. Por lo general estos concursos recurren a ejercicios donde los
+                        alumnos
+                        deben utilizar el pensamiento lógico-matemático para resolver problemas. <br>
+                        <a href="#" class="accordeon-a" data-imagen="IMG/-3.jpg">Imagenes</a>
+                    </div>
+                </div>
+                <div class="bloque">
+                    <div class="h1" style="background-color: #DF6257;">Concurso de Dibujo y Pintura</div>
+                    <div class="contenido" style="background-color: #da8a83;">
+                        El Concurso de Dibujo y Pintura, congrega a miles de estudiantes de las
+                        instituciones educativas que inspirados en los valores olímpicos, plasman imágenes año a
+                        año,
+                        trasluciendo el interés de los alumnos por el deporte. <br>
+                        <a href="#" class="accordeon-a" data-imagen="IMG/-4.jpg">Imagenes</a>
+                    </div>
+                </div>
+                <div class="bloque">
+                    <div class="h1" style="background-color: #F5E94D;">Concurso de Oratoria y Poesía</div>
+                    <div class="contenido" style="background-color: #f6f090;">
+                        Durante el concurso, el alumnado deberá mostrar, entre otras, sus habilidades de
+                        comunicación, de manejo del lenguaje y de puesta en escena, mientras comparte con el público
+                        asistente, a través de discursos creativos, imaginativos y persuasivos, su visión sobre la
+                        temática propuesta. <br>
+                        <a href="#" class="accordeon-a" data-imagen="IMG/-5.jpg">Imagenes</a>
+                    </div>
+                </div>
+                <div class="bloque">
+                    <div class="h1" style="background-color: #42DC8B;">Concurso de Ambientacion Nivel Inicial</div>
+                    <div class="contenido" style="background-color: #8edab1;">
+                        La ambientacion del aula es acondicionar el lugar de trabajo educativo con
+                        materiales, equipos tecnologicos, libros, etc. que esten al alcance de los estudiantes en el
+                        logro
+                        de
+                        sus aprendizajes. <br>
+                        <a href="#" class="accordeon-a" data-imagen="IMG/-6.jpg">Imagenes</a>
+                    </div>
+                </div>
+                <div class="bloque">
+                    <div class="h1" style="background-color: #3769C9;">Concurso de Periodico Mural</div>
+                    <div class="contenido" style="background-color: #88a7e3;">
+                        Es un medio de información y orientación, formado por textos e ilustraciones,
+                        colocados sobre un soporte (tabla, biombo, papel rígido, cartón o en un muro), en el cual se
+                        tratan
+                        uno
+                        o varios temas y permite conocer los sucesos o acontecimientos de actualidad reciente y
+                        permanente. <br>
+                        <a href="#" class="accordeon-a" data-imagen="IMG/-7.jpg">Imagenes</a>
+                    </div>
+                </div>
+            </div>
+            <script src="JS/accordeon.js"></script>
+            <!-- Contenedor de la ventana emergente -->
+            <div id="imagen-emergente">
+                <div id="imagen-emergente-contenido">
+                    <span id="cerrar-imagen">X</span>
+                    <img id="imagen-emergente-src" src="" alt="Imagen emergente">
+                </div>
+            </div>
+        </section>
+        <section id="actividades">
+            <div class="actividades">
+                <hr>
+                <div class="actividades-cuadro">
+                    <h1>Actividades</h1>
+                    <img src="IMG/actividadesadorno.png" alt="actividadesadorno">
+                </div>
+                <img class="adorno6" src="IMG/adorno.png" alt="adorno">
+            </div>
+            <!---------====================== Contenido de actividades ============================--------->
+            <div class="body-card">
+                <div class="card">
+                    <div class="face adelante">
+                        <img src="IMG/fechascivicas.png" alt="fechascivicas">
+                        <h1>Fechas Cívicas</h1>
+                    </div>
+                    <div class="face atras">
+                        <h1>Fechas Cívicas</h1>
+                        <p>El Calendario Cívico Escolar es una herramienta que proporciona el Ministerio de
+                            Educación
+                            (Minedu) y tiene como objetivo brindar información sobre diferentes acontecimientos
+                            nacionales e
+                            internacionales a los alumnos y personal del plantel en instituciones educativas.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face adelante">
+                        <img src="IMG/simulacros.png" alt="simulacros">
+                        <h1>Simulacros de Sismos</h1>
+                    </div>
+                    <div class="face atras">
+                        <h1>Simulacros de Sismos</h1>
+                        <p>Los simulacros escolares de emergencia, son ejercicios o ensayos de las acciones que se
+                            han
+                            planificado realizar en caso de que una emergencia o desastre afecte a la comunidad
+                            escolar.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face adelante">
+                        <img src="IMG/universarioIEP.png" alt="universarioIEP">
+                        <h1>Universario de la I.E.P</h1>
+                    </div>
+                    <div class="face atras">
+                        <h1>Universario de la I.E.P</h1>
+                        <p>Es esta una ceremonia para para dar las gracias, queremos recordar el pasado en la forma
+                            de un reconocimiento entrañable a algunas personas, que han contribuido de modo
+                            importante a
+                            que este colegio haya recorrido el camino de la excelencia académica en los últimos años
+                            y
+                            que
+                            sea considerado un prestigioso colegio</p>
+                    </div>
+                </div>
+            </div>
+            <div class="body-card">
+                <div class="card">
+                    <div class="face adelante">
+                        <img src="IMG/universariodistrito.png" alt="universariodistrito">
+                        <h1>Universario del Distrito/Provincia</h1>
+                    </div>
+                    <div class="face atras">
+                        <h1>Universario del Distrito/Provincia</h1>
+                        <p>El Calendario Cívico Escolar es una herramienta que proporciona el Ministerio de
+                            Educación
+                            (Minedu) y tiene como objetivo brindar información sobre diferentes acontecimientos
+                            nacionales e
+                            internacionales a los alumnos y personal del plantel en instituciones educativas.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face adelante">
+                        <img src="IMG/diadellogro.png" alt="diadellogro">
+                        <h1>Dia del Logro</h1>
+                    </div>
+                    <div class="face atras">
+                        <h1>Dia del Logro</h1>
+                        <p>El Día del Logro es uno de los momentos claves de la Movilización Nacional por la Mejora
+                            de los
+                            Aprendizajes la cual, bajo el lema “Todos podemos aprender, nadie se queda atrás”, busca
+                            mejorar
+                            los aprendizajes de niños y niñas, especialmente en comprensión lectora y matemática.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=================== Seccion  Alumnos Destacados ======================-->
+        <section id="alumonsdestacados">
+            <div class="alumno">
+                <img class="adorno8" src="IMG/adorno.png" alt="adorno">
+                <div class="alumno-cuadro">
+                    <h1>ALUMNOS <br> DESTACADOS</h1>
+                    <img src="IMG/alumnoadorno.png" alt="alumnoadorno">
+                </div>
+                <hr>
+            </div>
+            <!--===================  Contenido de  Alumnos Destacados ======================-->
+            <div class="sel">
+                <div class="al-b">
+                    <button class="slick-arrow slick-prev" onclick="app.processingButton(event)">
+                        &#60;
+                    </button>
+                    <div class="slick-list">
+                        <div class="slick-track" id="track">
+                            <div class="slick">
+                                <h4><small>ALUMNA</small>Libertad Rodriguez</h4>
+                                <picture>
+                                    <img src="IMG/pg1.jpg" alt="Image">
+                                </picture>
+                            </div>
+                            <div class="slick">
+                                <h4><small>ALUMNA</small>Luz Guadalupe</h4>
+                                <picture>
+                                    <img src="IMG/pg2.jpg" alt="Image">
+                                </picture>
+                            </div>
+                            <div class="slick">
+                                <h4><small>ALUMNO</small>Leonardos Vicente</h4>
+                                <picture>
+                                    <img src="IMG/pg3.jpg" alt="Image">
+                                </picture>
+                            </div>
+                            <div class="slick">
+                                <h4><small>ALUMNA</small>Mirrella del Pilar</h4>
+                                <picture>
+                                    <img src="IMG/pg4.jpg" alt="Image">
+                                </picture>
+                            </div>
+                            <div class="slick">
+                                <h4><small>ALUMNA</small> Francisca Marines</h4>
+                                <picture>
+                                    <img src="IMG/pg5.jpg" alt="Image">
+                                </picture>
+                            </div>
+                            <div class="slick">
+                                <h4><small>ALUMNA</small>Gustabo Loas</h4>
+                                <picture>
+                                    <img src="IMG/pg6.jpg" alt="Image">
+                                </picture>
+                            </div>
+                            <div class="slick">
+                                <h4><small>ALUMNO</small>Julio Carbajal</h4>
+                                <picture>
+                                    <img src="IMG/pg7.jpg" alt="Image">
+                                </picture>
+                            </div>
+                            <div class="slick">
+                                <h4><small>ALUMNO</small>Josue Casas</h4>
+                                <picture>
+                                    <img src="IMG/pg8.jpg" alt="Image">
+                                </picture>
+                            </div>
+                            <div class="slick">
+                                <h4><small>ALUMNO</small>Anthony Carbonel</h4>
+                                <picture>
+                                    <img src="IMG/pg9.jpg" alt="Image">
+                                </picture>
+                            </div>
+                            <div class="slick">
+                                <h4><small>ALUMNO</small>Brando Moreira</h4>
+                                <picture>
+                                    <img src="IMG/pg10.jpg" alt="Image">
+                                </picture>
+                            </div>
+                            <div class="slick">
+                                <h4><small>ALUMNO</small>Carlos Costa</h4>
+                                <picture>
+                                    <img src="IMG/pg11.jpg" alt="Image">
+                                </picture>
+                            </div>
+                            <div class="slick">
+                                <h4><small>ALUMNA</small>Maria Morales</h4>
+                                <picture>
+                                    <img src="IMG/pg12.jpg" alt="Image">
+                                </picture>
+                            </div>
+                            <div class="slick">
+                                <h4><small>ALUMNA</small>Lucia Prada</h4>
+                                <picture>
+                                    <img src="IMG/pg13.jpg" alt="Image">
+                                </picture>
+                            </div>
+                            <div class="slick">
+                                <h4><small>ALUMNO</small>Luis Martinez</h4>
+                                <picture>
+                                    <img src="IMG/pg14.jpg" alt="Image">
+                                </picture>
+                            </div>
+                            <div class="slick">
+                                <h4><small>ALUMNA</small>Francisca Peña</h4>
+                                <picture>
+                                    <img src="IMG/pg15.jpg" alt="Image">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="slick-arrow slick-next" onclick="app.processingButton(event)">
+                        &#62;
+                    </button>
+                </div>
+                <script defer src="JS/alum.js"></script>
+            </div>
+        </section>
+        <!--====================== Adorno Galeria ===========================-->
+        <section id="galeria">
+            <div class="galeria">
+                <hr>
+                <div class="galeria-cuadro">
+                    <h1>Galería</h1>
+                    <img src="IMG/galeria.adorno.png" alt="galeria.adorno">
+                </div>
+                <img class="adorno9" src="IMG/adorno.png" alt="adorno">
+            </div>
+            <!--====================== Seccion de Galeria ===========================-->
+            <div class="gallery" id="portafolio">
+                <div class="contenedor">
+                    <div class="contenedor-galeria">
+                        <img src="IMG/-1.jpg" alt="" class="img-galeria">
+                        <img src="IMG/-2.jpg" alt="" class="img-galeria">
+                        <img src="IMG/-3.jpg" alt="" class="img-galeria">
+                        <img src="IMG/-4.jpg" alt="" class="img-galeria">
+                        <img src="IMG/-5.jpg" alt="" class="img-galeria">
+                        <img src="IMG/-6.jpg" alt="" class="img-galeria">
+                        <img src="IMG/-7.jpg" alt="" class="img-galeria">
+                        <img src="IMG/-8.jpg" alt="" class="img-galeria">
+                        <img src="IMG/-9.jpg" alt="" class="img-galeria">
+                        <img src="IMG/-10.jpg" alt="" class="img-galeria">
+                        <img src="IMG/-11.jpg" alt="" class="img-galeria">
+                        <img src="IMG/-12.jpg" alt="" class="img-galeria">
+                    </div>
+                </div>
+            </div>
+            <div class="imagen-light">
+                <i class="fas fa-times close"></i>
+                <img src="" alt="imagen" class="agregar-imagen">
+            </div>
+            <script src="JS/galery.js"></script>
+        </section>
+        <!--====================== La seccion documentos=========================-->
+        <section id="documentos">
+            <div class="documentos">
+                <img class="adorno5" src="IMG/adorno.png" alt="adorno">
+                <div class="documentos-cuadro">
+                    <h1>documentos</h1>
+                    <img src="IMG/documentosadorno.png" alt="documentosadorno">
+                </div>
+                <hr>
+            </div>
+            <!--====================== La seccion cuadros de documentos=========================-->
+            <div class="centro-d">
+                <a href="PDF/PEI.pdf" target="_blank">
+                    <button class="d-boton "><span></span>
+                        <img src="IMG/c-descarga.png" width="27px" alt=""> PEI</button>
+                </a>
+
+                <a href="PDF/PAT.pdf" target="_blank">
+                    <button class="d-boton"><span></span>
+                        <img src="IMG/c-descarga.png" width="27px" alt=""> PAT</button>
+                </a>
+
+                <a href="PDF/Reglamento.pdf" target="_blank">
+                    <button class="d-boton"><span></span>
+                        <img src="IMG/c-descarga.png" width="27px" alt=""> Reglamento interno</button>
+                </a>
+
+                <a href="/public/PDF/Organigrama.pdf" target="_blank">
+                    <button class="d-boton"><span></span>
+                        <img src="IMG/c-descarga.png" width="27px" alt=""> Organigrama</button>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <br><br><br><br><br><br>
+    <footer id="contactanos">
+        <h1 class="c-h1">CONTACTANOS</h1>
+        <!-- contenido -->
+        <div class="contactanos">
+            <div class="border">
+                <div class="contactanos-informacion">
+                    <div class="flex">
+                        <img class="c-logo" src="IMG/c-logo.png" alt="c-logo">
+                        <h4>Colegio<br>Maryland Bilingual High School</h4>
+                    </div>
+                    <div class="flex">
+                        <img class="c-img" src="IMG/c-email.png" alt="c-email">
+                        <a href="https://mail.google.com/mail/?view=cm&to=angel.castilla@vallegrande.edu.pe" target="_blank">
+                            <h4>contacto@gmail</h4>
+                        </a>
+                    </div>
+                    <div class="flex">
+                        <img class="c-img" src="IMG/c-telefono.png" alt="c-telefono">
+                        <a href="https://web.whatsapp.com/send?phone=936609401" target="_blank">
+                            <h4>(+51) 987654321</h4>
+                        </a>
+                    </div>
+                    <div class="flex">
+                        <img class="c-img" src="IMG/c-ubicacion.png" alt="">
+                        <a href="https://www.google.com/maps/place/Maryland+Bilingual+High+School/@-13.0835481,-76.3890397,17z/data=!3m1!4b1!4m6!3m5!1s0x910ff9f2c74ed7df:0x8630a38f7b130e26!8m2!3d-13.0835481!4d-76.3890397!16s%2Fg%2F11h4d3vv1w?hl=es&entry=ttu"
+                            target="_blank">
+                            <h4>WJ86+H9P, San Vicente de Cañete 15701</h4>
+                        </a>
+                    </div>
+                    <div class="flex">
+                        <h4>Encuentranos en: </h4>
+                        <a href="https://www.facebook.com/colegiomarylandcanete" target="_blank">
+                            <img class="img-facebook" src="IMG/c-facebook.png" alt="c-facebook">
+                        </a>
+                    </div>
+                </div>
+                <div class="formulario">
+                    <p class="c-p">Envíenos su mensaje y nos pondremos en contacto con Usted.</p>
+                    <div id="form">
+                        <form>
+                            <p>
+                                <label for="nombres">Nombres:</label>
+                                <input type="text" id="nombres" name="nombres">
+                            </p>
+                            <p>
+                                <label for="apellidos">Apellidos:</label>
+                                <input type="text" id="apellidos" name="apellidos">
+                            </p>
+                            <p>
+                                <label for="email">Correo Electrónico:</label>
+                                <input type="text" id="email" name="email">
+                            </p>
+                            <p>
+                                <label for="telefono">Teléfono:</label>
+                                <input type="text" id="telefono" name="telefono">
+                            </p>
+                            <p class="c-block">
+                                <label for="mensaje">Mensaje:</label>
+                                <textarea id="mensaje" name="mensaje" cols="0" rows="3"></textarea>
+                            </p>
+                            <p class="c-block">
+                                <button id="btnCrear" type="submit">
+                                    Enviar
+                                </button>
+                            </p>
+                        </form>
+                    </div>
+                    <script src="/registro.js"></script>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section id="ubicanos">
+        <div id="map"></div>
+        <script src="JS/mapa.js"></script>
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+    </section>
+</body>
+
+</html>
